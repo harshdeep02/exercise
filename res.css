@@ -1,0 +1,243 @@
+@media only screen and (max-width:320px) {
+    .section-text {
+        right: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:376px) {
+    .section-bg {
+        width: 61rem;
+        height: 30rem;
+    }
+
+    .bgvideo {
+        position: absolute;
+        top: 17rem;
+        left: 24rem;
+        width: 67%;
+    }
+
+    .nav2 ul {
+        justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: flex-start;
+    /* position: relative;
+    top: 5rem; */
+    height: 24rem;
+    padding: 0px;
+    }
+    .nav ul li a{
+        font-size: 1.3rem;
+    }
+    .nav ul span {
+
+        padding: 0px;
+        height: 1.9rem;
+    }
+    .logo {
+        background-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    }
+    .section-text {
+        right: 2rem;
+    }
+
+    .container {
+        width: 61rem;
+    }
+
+    .nav2 ul span {
+        /* padding: 0rem 0.5rem; */
+        background-color: black;
+    }
+
+    /* .hoverline{
+        position: absolute;
+        color: black;
+        top: 6rem;
+    }
+    .Spanhoverline{
+    }  */
+    #navid {
+        display: none;
+
+    }
+
+    #menu {
+        padding-right: 2rem;
+        color: #3aa8b6;
+        position: sticky;
+        /* top: 1.7rem; */
+        right: 1rem;
+        margin-top: 1.7rem;
+    }
+    .menucls{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:376px) and (max-width:426px){
+
+    .section-bg {
+        width: 61rem;
+        height: 30rem;
+    }
+
+    .bgvideo {
+        position: absolute;
+        top: 17rem;
+        left: 24rem;
+        width: 67%;
+    }
+    .nav2 ul {
+        justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: flex-start;
+    /* position: relative;
+    top: 5rem; */
+    height: 24rem;
+    padding: 0px;
+    }
+    .nav ul li a{
+        font-size: 1.3rem;
+    }
+    .nav ul span {
+
+        padding: 0px;
+        height: 1.9rem;
+    }
+    .logo {
+        background-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    }
+    .section-text {
+        right: 2rem;
+    }
+
+    .container {
+        width: 61rem;
+    }
+
+    .nav2 ul span {
+        /* padding: 0rem 0.5rem; */
+        background-color: black;
+    }
+
+    /* .hoverline{
+        position: absolute;
+        color: black;
+        top: 6rem;
+    }
+    .Spanhoverline{
+    }  */
+    #navid {
+        display: none;
+
+    }
+
+    #menu {
+        padding-right: 2rem;
+        color: #3aa8b6;
+        position: sticky;
+        /* top: 1.7rem; */
+        right: 1rem;
+        margin-top: 1.7rem;
+    }
+    .menucls{
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width:427px) and (max-width:769px){
+
+    .section-bg {
+        width: 61rem;
+        height: 57rem;
+    }
+
+    .bgvideo {
+        position: absolute;
+        top: 23rem;
+        left: 17rem;
+        width: 61%;
+    }
+    .nav2 ul {
+        justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: flex-start;
+    /* position: relative;
+    top: 5rem; */
+    height: 24rem;
+    padding: 0px;
+    }
+    .nav ul li a{
+        font-size: 1.3rem;
+    }
+    .nav ul span {
+
+        padding: 0px;
+        height: 1.9rem;
+    }
+    .logo {
+        background-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    }
+    .section-text {
+        right: 2rem;
+    }
+
+    .container {
+        width: 61rem;
+    }
+
+    .nav2 ul span {
+        /* padding: 0rem 0.5rem; */
+        background-color: black;
+    }
+
+    /* .hoverline{
+        position: absolute;
+        color: black;
+        top: 6rem;
+    }
+    .Spanhoverline{
+    }  */
+    #navid {
+        display: none;
+
+    }
+
+    #menu {
+        padding-right: 2rem;
+        color: #3aa8b6;
+        position: sticky;
+        /* top: 1.7rem; */
+        right: 1rem;
+        margin-top: 1.7rem;
+    }
+    .menucls{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:770px){
+
+    #menu{
+        display: none;
+    }
+    #navid {
+        display: block;
+
+    }
+}
