@@ -17,16 +17,21 @@
         left: 24rem;
         width: 67%;
     }
+    .nav{
+        width: 100%;
+    }
 
+    .navbar {
+        flex-direction: column;
+    }
     .nav2 ul {
-        justify-content: center;
-    background-color: black;
-    flex-direction: column;
-    align-items: flex-start;
-    /* position: relative;
-    top: 5rem; */
-    height: 24rem;
-    padding: 0px;
+        justify-content: space-around;
+        /* background-color: black; */
+        flex-direction: column;
+        align-items: center;
+        height: 24rem;
+        padding: 0px;
+        width: 100%;
     }
     .nav ul li a{
         font-size: 1.3rem;
@@ -37,22 +42,28 @@
         height: 1.9rem;
     }
     .logo {
-        background-color: black;
+        /* background-color: black; */
     justify-content: flex-start;
     align-items: flex-start;
     
+    }
+    .logo-menu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
     }
     .section-text {
         right: 2rem;
     }
 
     .container {
-        width: 61rem;
+        /* width: 61rem; */
     }
 
     .nav2 ul span {
-        /* padding: 0rem 0.5rem; */
-        background-color: black;
+        width: 100%;
+        background-color: #a8b50a;
+        padding: 1rem 0rem;
     }
 
     /* .hoverline{
@@ -70,18 +81,14 @@
     #menu {
         padding-right: 2rem;
         color: #3aa8b6;
-        position: sticky;
-        /* top: 1.7rem; */
-        right: 1rem;
-        margin-top: 1.7rem;
+        cursor: pointer;
     }
     .menucls{
-        display: flex;
+        /* display: flex; */
     }
 }
 
 @media only screen and (min-width:376px) and (max-width:426px){
-
     .section-bg {
         width: 61rem;
         height: 30rem;
@@ -93,15 +100,17 @@
         left: 24rem;
         width: 67%;
     }
+    .navbar {
+        flex-direction: column;
+    }
     .nav2 ul {
-        justify-content: center;
-    background-color: black;
-    flex-direction: column;
-    align-items: flex-start;
-    /* position: relative;
-    top: 5rem; */
-    height: 24rem;
-    padding: 0px;
+        justify-content: space-around;
+        /* background-color: black; */
+        flex-direction: column;
+        align-items: center;
+        height: 24rem;
+        padding: 0px;
+        width: 100%;
     }
     .nav ul li a{
         font-size: 1.3rem;
@@ -112,10 +121,15 @@
         height: 1.9rem;
     }
     .logo {
-        background-color: black;
+        /* background-color: black; */
     justify-content: flex-start;
     align-items: flex-start;
     
+    }
+    .logo-menu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
     }
     .section-text {
         right: 2rem;
@@ -126,8 +140,9 @@
     }
 
     .nav2 ul span {
-        /* padding: 0rem 0.5rem; */
-        background-color: black;
+        width: 100%;
+        background-color: #a8b50a;
+        padding: 1rem 0rem;
     }
 
     /* .hoverline{
@@ -145,13 +160,10 @@
     #menu {
         padding-right: 2rem;
         color: #3aa8b6;
-        position: sticky;
-        /* top: 1.7rem; */
-        right: 1rem;
-        margin-top: 1.7rem;
+        cursor: pointer;
     }
     .menucls{
-        display: flex;
+        /* display: flex; */
     }
 }
 
@@ -169,15 +181,17 @@
         left: 17rem;
         width: 61%;
     }
+    .navbar {
+        flex-direction: column;
+    }
     .nav2 ul {
-        justify-content: center;
-    background-color: black;
-    flex-direction: column;
-    align-items: flex-start;
-    /* position: relative;
-    top: 5rem; */
-    height: 24rem;
-    padding: 0px;
+        justify-content: space-around;
+        /* background-color: black; */
+        flex-direction: column;
+        align-items: center;
+        height: 24rem;
+        padding: 0px;
+        width: 100%;
     }
     .nav ul li a{
         font-size: 1.3rem;
@@ -188,10 +202,15 @@
         height: 1.9rem;
     }
     .logo {
-        background-color: black;
+        /* background-color: black; */
     justify-content: flex-start;
     align-items: flex-start;
     
+    }
+    .logo-menu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
     }
     .section-text {
         right: 2rem;
@@ -202,17 +221,10 @@
     }
 
     .nav2 ul span {
-        /* padding: 0rem 0.5rem; */
-        background-color: black;
+        width: 100%;
+        background-color: #a8b50a;
+        padding: 1rem 0rem
     }
-
-    /* .hoverline{
-        position: absolute;
-        color: black;
-        top: 6rem;
-    }
-    .Spanhoverline{
-    }  */
     #navid {
         display: none;
 
@@ -221,13 +233,10 @@
     #menu {
         padding-right: 2rem;
         color: #3aa8b6;
-        position: sticky;
-        /* top: 1.7rem; */
-        right: 1rem;
-        margin-top: 1.7rem;
+        cursor: pointer;
     }
     .menucls{
-        display: flex;
+        /* display: flex; */
     }
 }
 
